@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+	<title>Get It Done!</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   	<link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="./assets/js/tasks.js"></script>
+</head>
+
+<body>
+	<header>Get It Done!</header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8"  style="margin:auto; text-align: center;">
+                <p style="margin-top: 10px;">Enter a task that you would like to complete and click the submit button.</p>
+                <form class="search" style="margin:auto; ">
+                    <textarea class="form-control" id="textarea" rows="3" placeholder="Enter a task ..." style="margin-top: 10px;" ></textarea>
+                    <button type="submit" class="btn btn-info" style="margin-top: 10px;">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+
+        <div class="row" > 
+            <div class="col-lg-5">
+                <div class="card text-center" style="margin-top: 20px;">
+                    <div class="card-header">
+                        To-Do List
+                    </div>
+
+                    <table class="table table-sm card-body d-flex justify-content-center" style="margin-top: 5px;">
+                        <tr><td class="card activeRow" style="margin:10px; max-width: 300px;" >test</td></tr>
+                        <tr><td class="card activeRow" style="margin:10px; max-width: 300px;" >test</td></tr>
+                    </table>
+
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-5">
+                <div class="card text-center"  style="margin-top: 20px;">
+                    <div class="card-header">
+                        Completed Tasks
+                    </div>
+                    <table class="table table-sm card-body d-flex justify-content-center" style="margin-top: 5px;">
+                        <tr><td class="card deactiveRow" style="margin:10px; max-width: 300px;" >test</td></tr>
+                        <tr><td class="card deactiveRow" style="margin:10px; max-width: 300px;" >test</td></tr>
+                    </table>
+                </div>
+            </div>            
+        </div>    
+    </div>
+
+    </div>
+	</body>
+</html>

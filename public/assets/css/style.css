@@ -1,0 +1,30 @@
+
+header {
+    text-align: center;
+    padding: 15px;
+    background-color: hsl(206, 17%, 28%);
+    font-size: 30pt;
+    color: rgb(235, 235, 245);
+    font-family: 'Sriracha', cursive;
+}
+
+body {
+    color: hsl(207, 18%, 10%);
+}
+
+  form.search::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  td.activeRow{
+    background: rgb(145, 203, 250);
+  }
+  td.activeRow:hover{
+    background-color: #389ff3;
+  }
+
+  td.deactiveRow{
+    background: #bbced1;
+  }
