@@ -11,7 +11,9 @@
   * [Questions](#questions)
   
   ## Description
-  This is a web-based task-tracking application that allows the user to track the status of tasks that they are working on. The application creates a task logger with MySQL, Node, Express, Handlebars and ORM with MVC design pattern. It uses Node and MYSQL to query and route data and Handlebars to generate HTML.
+  This is a web-based task-tracking application that allows the user to track the status of tasks that they are working on. The application creates a task logger with MySQL, Node, Express, Handlebars and ORM with MVC design pattern. It uses Node and MYSQL to query and route data and Handlebars to generate HTML. 
+  Here is a link to the [app](https://murmuring-mountain-06049.herokuapp.com/).
+
 
   ## Installation
   1. Clone the repository 2. run ```npm install``` in terminal
